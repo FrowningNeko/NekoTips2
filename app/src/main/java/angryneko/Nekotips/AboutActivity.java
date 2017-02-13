@@ -27,7 +27,7 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        return true;
+         return true;
     }
 
     @Override
