@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Tittle_text">#72e7ff</color>
+    <color name="TextRed">#ff0c0b</color>
+    <color name="TextGreen">#11ff00</color>
+</resources>

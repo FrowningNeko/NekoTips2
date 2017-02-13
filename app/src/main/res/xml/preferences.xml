@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Neko Tips">
+        <Preference
+            android:key="customTips"
+            android:title="Совет дня" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Настройки Neko Tips">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="checkboxPref"
+            android:summary="Приложению запускать отсчёт времени для совета после перезапуска телефона?"
+            android:title="Автозапуск" />
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+            android:key="listPref"
+            android:summary="Тут можно выбрать размер шрифта для советов"
+            android:title="Размер шрифта" />
+        <Preference
+            android:key="customTime"
+            android:title="Настроить время"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Прочее">
+        <Preference
+            android:key="customPref2"
+            android:title="Купить платную версию"
+            android:summary="Никакой рекламы и функция Lurking Neko!"/>
+    <Preference
+        android:key="customPref"
+        android:title="О программе" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
